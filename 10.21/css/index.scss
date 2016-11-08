@@ -1,0 +1,393 @@
+@media screen and (max-width: 410px) {
+	header{
+		background: #817771;
+		padding: .06rem 0;
+		height: 1.5rem;
+		nav{
+			margin: 0 auto;
+			line-height: .69rem;
+			position: relative;
+			div{
+				background: #dbdadc;
+				text-align: center;
+				font-size: .22rem;
+			}
+			ul{
+				position: absolute;
+				background: #817771;
+				left: .1rem;
+				overflow: hidden;
+				li{
+					padding: 0 .25rem;
+					color: #a3a3a8;
+					text-align: center;
+				}
+				.none{
+					margin-top: .10rem;
+				}
+			}
+			ul.change{
+				height: .69rem;
+			}
+		}
+	}
+	main{
+		&>div{
+			&>p{
+				line-height: .7rem;
+				text-indent: 10px;
+			}
+			.left1{
+				margin-bottom: .1rem;
+				img{
+					width: 100%
+				}
+			}
+			.right{
+				width: 100%;
+				h1{
+					text-indent: 10px;
+					line-height: .65rem;
+					font-size: .25rem
+				}
+				h2{
+					text-indent: 10px;
+					line-height: .65rem;
+					font-size: .20rem
+				}
+				p{
+					line-height: .24rem;
+					text-indent: .1rem;
+					color: #404752;
+					font-size: .14rem;
+				}
+				p.bottom{
+					margin-bottom: .25rem;
+				}
+				.show{
+					span{
+						color: #fff;
+						display: inline-block;
+						margin-right: .06rem;
+						margin-bottom: .06rem;
+						padding: .1rem;
+						background: #1ba1e2;
+						border-radius: .05rem;
+					}
+				}
+				h4{
+					line-height: .36rem;
+					text-indent: .1rem;
+				}
+			}
+			.h{
+				padding: .22rem 0;
+				*{
+					display: inline-block;
+				}
+				span{
+					width: .1rem;
+					background: skyblue;
+					height: .16rem;
+					margin-right: .05rem;
+				}
+				h3{
+					font-size: .16rem
+				}
+			}
+		}
+	}
+	footer{
+		background: #3e4645;
+		padding: .6rem 0;
+		ul{
+			margin: 0 auto;
+			li{
+				text-align: center;
+				margin-bottom: .6rem;
+				h1{
+					line-height: .4rem;
+					font-size: .16rem;
+					color: #fff
+				}
+				p{
+					line-height: .3rem;
+					font-size: .14rem;
+					color: #ababab
+				}
+			}
+		}
+		p{
+			text-align: center;
+			line-height: .3rem;
+			font-size: .14rem;
+			color: #ababab
+		}
+	}
+}
+@media screen and (max-width: 1150px) and (min-width: 410px) {
+	header{
+		background: #817771;
+		padding: .06rem 0;
+		nav{
+			margin: 0 auto;
+			line-height: .69rem;
+			position: relative;
+			div{
+				background: #dbdadc;
+				width: 3rem;
+				text-align: center;
+				font-size: .22rem;
+			}
+			ul{
+				position: absolute;
+				background: #817771;
+				top: 0;
+				right: 0;
+				overflow: hidden;
+				li{
+					padding: 0 .25rem;
+					color: #a3a3a8;
+					text-align: center;
+				}
+				.none{
+					margin-top: .10rem;
+				}
+			}
+			ul.change{
+				height: .69rem;
+			}
+		}
+	}
+	main{
+		overflow-y: scroll;
+		&>div{
+			margin: auto;
+			position: relative;
+			&>p{
+				line-height: .7rem;
+				text-indent: .1rem;
+			}
+			.left1{
+				width: 43%;
+				margin-bottom: .1rem;
+				img{
+					width: 100%;
+				}
+			}
+			.right{
+				position: absolute;
+				right: 0;
+				top: .7rem;
+				width: 53%;
+				h1{
+					line-height: .65rem;
+					font-size: .25rem
+				}
+				h2{
+					line-height: .65rem;
+					font-size: .20rem
+				}
+				p{
+					line-height: .24rem;
+					text-indent: .1rem;
+					color: #404752;
+					font-size:.14rem;
+				}
+				p.bottom{
+					margin-bottom: .25rem;
+				}
+				.show{
+					span{
+						color: #fff;
+						display: inline-block;
+						margin-right: .06rem;
+						margin-bottom: .06rem;
+						padding: .1rem;
+						background: #1ba1e2;
+						border-radius: .05rem;
+					}
+				}
+				h4{
+					line-height: .36rem;
+				}
+			}
+			.h{
+				padding: .22rem 0;
+				*{
+					display: inline-block;
+				}
+				span{
+					width: .1rem;
+					background: skyblue;
+					height: .16rem;
+					margin-right: .05rem;
+				}
+				h3{
+					font-size: .16rem
+				}
+			}
+		}
+	}
+	footer{
+		background: #3e4645;
+		padding-top: .6rem;
+		ul{
+			margin: 0 auto;
+			display: -webkit-flex;
+			flex-wrap: wrap;
+			li{
+				text-align: center;
+				margin-bottom: .6rem;
+				h1{
+					line-height: .4rem;
+					font-size: .16rem;
+					color: #fff
+				}
+				p{
+					line-height: .3rem;
+					font-size: .14rem;
+					color: #ababab
+				}
+			}
+			.mode1{
+				width: 25%;
+			}
+			.mode2{
+				width: 50%
+			}
+		}
+		p{
+			text-align: center;
+			line-height: .3rem;
+			font-size: .14rem;
+			color: #ababab
+		}
+	}
+}
+@media screen and (min-width: 1150px) {
+	header{
+		background: #817771;
+		padding: .06rem 0;
+		nav{
+			width: 11.5rem;
+			margin: 0 auto;
+			line-height: .69rem;
+			display: -webkit-flex;
+			div{
+				background: #dbdadc;
+				width: 3rem;
+				text-align: center;
+				font-size: .22rem;
+				margin-right: .75rem;
+			}
+			ul{
+				-webkit-flex-grow:1;
+				display: -webkit-flex;
+				.none{
+					display: none;
+				}
+				li{
+					padding: 0 .25rem;
+					color: #a3a3a8;
+				}
+			}
+		}
+	}
+	main{
+		&>div{
+			width: 11.5rem;
+			margin: auto;
+			position: relative;
+			&>p{
+				line-height: .7rem;
+			}
+			.left1{
+				width: 5rem;
+				margin-bottom: .1rem;
+			}
+			.right{
+				position: absolute;
+				right: 0;
+				top: .7rem;
+				width: 6.2rem;
+				h1{
+					line-height: .65rem;
+					font-size: .25rem
+				}
+				h2{
+					line-height: .65rem;
+					font-size: .20rem
+				}
+				p{
+					line-height: .24rem;
+					text-indent: .1rem;
+					color: #404752;
+					font-size:.14rem;
+				}
+				p.bottom{
+					margin-bottom: .25rem;
+				}
+				.show{
+					span{
+						color: #fff;
+						display: inline-block;
+						margin-right: .06rem;
+						margin-bottom: .06rem;
+						padding: .1rem;
+						background: #1ba1e2;
+						border-radius: .05rem;
+					}
+				}
+				h4{
+					line-height: .36rem;
+				}
+			}
+			.h{
+				padding: .22rem 0;
+				*{
+					display: inline-block;
+				}
+				span{
+					width: .1rem;
+					background: skyblue;
+					height: .16rem;
+					margin-right: .05rem;
+				}
+				h3{
+					font-size: .16rem
+				}
+			}
+		}
+	}
+	footer{
+		background: #3e4645;
+		padding-top: .6rem;
+		ul{
+			width: 11.5rem;
+			margin: 0 auto;
+			display: -webkit-flex;
+			li{
+				-webkit-flex-grow:1;
+				text-align: center;
+				margin-bottom: .6rem;
+				h1{
+					line-height: .4rem;
+					font-size: .16rem;
+					color: #fff
+				}
+				p{
+					line-height: .3rem;
+					font-size: .14rem;
+					color: #ababab
+				}
+			}
+		}
+		p{
+			text-align: center;
+			line-height: .3rem;
+			font-size: .14rem;
+			color: #ababab
+		}
+	}
+}
